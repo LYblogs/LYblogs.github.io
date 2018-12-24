@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="数据库 - 实现项目中的数据持久化 #数据库的类别:  ##关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB">
+<meta name="description" content="数据库 - 实现项目中的数据持久化 数据库的类别: 关系型数据库  - MySQL 特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB DB2、S">
 <meta name="keywords" content="基础,数据库">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据库">
 <meta property="og:url" content="http://yoursite.com/2018/12/24/数据库/index.html">
 <meta property="og:site_name" content="LYblogs">
-<meta property="og:description" content="数据库 - 实现项目中的数据持久化 #数据库的类别:  ##关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB">
+<meta property="og:description" content="数据库 - 实现项目中的数据持久化 数据库的类别: 关系型数据库  - MySQL 特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB DB2、S">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-24T06:16:44.747Z">
+<meta property="og:updated_time" content="2018-12-24T09:43:17.041Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库">
-<meta name="twitter:description" content="数据库 - 实现项目中的数据持久化 #数据库的类别:  ##关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB">
+<meta name="twitter:description" content="数据库 - 实现项目中的数据持久化 数据库的类别: 关系型数据库  - MySQL 特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB DB2、S">
 
 
 
@@ -387,10 +387,8 @@
 
       
         <p>数据库 - 实现项目中的数据持久化</p>
-<p>#数据库的类别:</p>
-<ul>
-<li><p>##关系型数据库  - MySQL</p>
-<ul>
+<h1 id="数据库的类别"><a href="#数据库的类别" class="headerlink" title="数据库的类别:"></a>数据库的类别:</h1><ul>
+<li><h2 id="关系型数据库-MySQL"><a href="#关系型数据库-MySQL" class="headerlink" title="关系型数据库  - MySQL"></a>关系型数据库  - MySQL</h2><ul>
 <li><p>特点:</p>
 <ol>
 <li>理论基础: 集合论的关系代数</li>
@@ -414,36 +412,30 @@
 <li>Elasticsearch  -  搜索引擎</li>
 </ol>
 </li>
-<li><p>Linux安装软件<br>1.包管理工具  -  yum / rpm</p>
-</li>
-</ul>
-<p>Docker  -  提供虚拟化服务，创建虚拟化容器并按照软件</p>
-<blockquote>
+<li><p>#Linux安装软件</p>
+<h2 id="包管理工具-yum-rpm"><a href="#包管理工具-yum-rpm" class="headerlink" title="包管理工具  -  yum / rpm"></a>包管理工具  -  yum / rpm</h2><h2 id="Docker-提供虚拟化服务，创建虚拟化容器并按照软件"><a href="#Docker-提供虚拟化服务，创建虚拟化容器并按照软件" class="headerlink" title="Docker  -  提供虚拟化服务，创建虚拟化容器并按照软件"></a>Docker  -  提供虚拟化服务，创建虚拟化容器并按照软件</h2><blockquote>
 <p>安装指令:yum -y install docker-io<br>卸载指令:yum -y install docker-io<br>查看指令:yum info …<br>搜索指令:yum search<br>查看是否安装:yum list installed | grep docker</p>
 </blockquote>
-<p>Docker服务</p>
-<blockquote>
+<h2 id="Docker服务"><a href="#Docker服务" class="headerlink" title="Docker服务"></a>Docker服务</h2><blockquote>
 <p>启动:systemctl start docker<br>暂停：systemctl stop docker<br>重启:systemctl restart docker<br>查看服务器状态:systemctl status docker<br>开机自启:systemctl enable docker<br>禁用开机自启:systemctl disable docker</p>
 </blockquote>
-<p>使用Docker命令</p>
-<ol>
-<li><p>查看已经下载好的镜像文件(安装包):</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker  imgaes</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>下载MySQL的镜像文件:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull mysql:5.7</span><br></pre></td></tr></table></figure>
+</ul>
+<p>#使用Docker命令</p>
+<h2 id="1-查看已经下载好的镜像文件-安装包"><a href="#1-查看已经下载好的镜像文件-安装包" class="headerlink" title="1. 查看已经下载好的镜像文件(安装包):"></a>1. 查看已经下载好的镜像文件(安装包):</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker  imgaes</span><br></pre></td></tr></table></figure>
+<h2 id="2-下载MySQL的镜像文件"><a href="#2-下载MySQL的镜像文件" class="headerlink" title="2. 下载MySQL的镜像文件:"></a>2. 下载MySQL的镜像文件:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull mysql:5.7</span><br></pre></td></tr></table></figure>
+<ul>
+<li>MySQL数据库超级管理员账号 - root</li>
+<li>Oracle数据库超级管理员账号 - sys</li>
+<li>SQLServer数据库超级管理员账号 - sa<h2 id="3-创建并运行容器"><a href="#3-创建并运行容器" class="headerlink" title="3. 创建并运行容器"></a>3. 创建并运行容器</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 3306:3306 --name mysql57 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<p>MySQL数据库超级管理员账号 - root<br>Oracle数据库超级管理员账号 - sys<br>SQLServer数据库超级管理员账号 - sa</p>
-<ol start="3">
-<li><p>创建并运行容器</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 3306:3306 --name mysql57 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查看运行中的程序</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>安装MySQL客户端工具:<br>Navicat  - 海豚<br>SQLyog  -  海豚<br>Toad  for  MySQL   -  蛤蟆</p>
+</ul>
+<h2 id="4-查看运行中的程序"><a href="#4-查看运行中的程序" class="headerlink" title="4. 查看运行中的程序"></a>4. 查看运行中的程序</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+<h2 id="5-安装MySQL客户端工具"><a href="#5-安装MySQL客户端工具" class="headerlink" title="5.安装MySQL客户端工具:"></a>5.安装MySQL客户端工具:</h2><ul>
+<li>Navicat  - 海豚</li>
+<li>SQLyog  -  海豚</li>
+<li>Toad  for  MySQL   -  蛤蟆</li>
+</ul>
 
       
     </div>
@@ -542,8 +534,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -628,6 +629,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数据库的类别"><span class="nav-number">1.</span> <span class="nav-text">数据库的类别:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#关系型数据库-MySQL"><span class="nav-number">1.1.</span> <span class="nav-text">关系型数据库  - MySQL</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#包管理工具-yum-rpm"><span class="nav-number">1.2.</span> <span class="nav-text">包管理工具  -  yum / rpm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-提供虚拟化服务，创建虚拟化容器并按照软件"><span class="nav-number">1.3.</span> <span class="nav-text">Docker  -  提供虚拟化服务，创建虚拟化容器并按照软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker服务"><span class="nav-number">1.4.</span> <span class="nav-text">Docker服务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-查看已经下载好的镜像文件-安装包"><span class="nav-number">1.5.</span> <span class="nav-text">1. 查看已经下载好的镜像文件(安装包):</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-下载MySQL的镜像文件"><span class="nav-number">1.6.</span> <span class="nav-text">2. 下载MySQL的镜像文件:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-创建并运行容器"><span class="nav-number">1.7.</span> <span class="nav-text">3. 创建并运行容器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-查看运行中的程序"><span class="nav-number">1.8.</span> <span class="nav-text">4. 查看运行中的程序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-安装MySQL客户端工具"><span class="nav-number">1.9.</span> <span class="nav-text">5.安装MySQL客户端工具:</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
