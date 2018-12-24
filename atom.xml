@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T02:48:17.435Z</updated>
+  <updated>2018-12-24T02:52:22.001Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/12/24/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     <id>http://yoursite.com/2018/12/24/数据库/</id>
     <published>2018-12-24T01:48:36.000Z</published>
-    <updated>2018-12-24T02:48:17.435Z</updated>
+    <updated>2018-12-24T02:52:22.001Z</updated>
     
     <summary type="html">
     
@@ -30,14 +30,14 @@
         
         
           &lt;p&gt;数据库 - 实现项目中的数据持久化&lt;/p&gt;
-&lt;p&gt;&lt;--more--&gt;&lt;/--more--&gt;&lt;/p&gt;
 &lt;p&gt;数据库的类别:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;关系型数据库  - MySQL&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;特点:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;理论基础:
+&lt;li&gt;理论基础: 集合论的关系代数&lt;/li&gt;
+&lt;li&gt;用二维表来组织数据(行 
         
       
     
