@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2018%2F12%2F21%2FREADME%2F</url>
-    <content type="text"><![CDATA[python 1808介绍{以下是码云平台说明，您可以替换此简介码云是开源中国推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台 无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 https://gitee.com/enterprises} 软件架构1.基础语法学习2.web前段3.Linux4.MySQL数据库 安装教程 xxxx xxxx xxxx 使用说明 xxxx xxxx xxxx 参与贡献 Fork 本仓库 新建 Feat_xxx 分支 提交代码 新建 Pull Request 码云特技 使用 Readme_XXX.md 来支持不同的语言，例如 Readme_en.md, Readme_zh.md 码云官方博客 blog.gitee.com 你可以 https://gitee.com/explore 这个地址来了解码云上的优秀开源项目 GVP 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目 码云官方提供的使用手册 https://gitee.com/help 码云封面人物是一档用来展示码云会员风采的栏目 https://gitee.com/gitee-stars/]]></content>
+    <title><![CDATA[数据库]]></title>
+    <url>%2F2018%2F12%2F24%2F%E6%95%B0%E6%8D%AE%E5%BA%93%2F</url>
+    <content type="text"><![CDATA[数据库 - 实现项目中的数据持久化 数据库的类别: 关系型数据库 - MySQL 特点: 理论基础: 集合论的关系代数 用二维表来组织数据(行 (记录) 和列(字段) ) SQL - 结构化查询语言( Structured query language ) 关系型数据库产品: Oracle - （甲骨文公司） MySQL - （甲骨文公司） - MariaDB DB2、SQLServer、postgreSQL、SQLite NoSQL数据库 - Redis MongoDB - 文档数据库 - 适合量大但是价值低的数据 Redis - KV数据库 - 性能好适合做项目中的高速缓存服务 Elasticsearch - 搜索引擎 Linux安装软件1.包管理工具 - yum / rpm Docker - 提供虚拟化服务，创建虚拟化容器并按照软件 安装指令:yum -y install docker-io 卸载指令:yum -y install docker-io 查看指令:yum info … 搜索指令:yum search 查看是否安装:yum list installed | grep docker Docker服务 启动:systemctl start docker 暂停：systemctl stop docker 重启:systemctl restart docker 查看服务器状态:systemctl status docker 开机自启:systemctl enable docker 禁用开机自启:systemctl disable docker 使用Docker命令 查看已经下载好的镜像文件(安装包): 1docker imgaes 下载MySQL的镜像文件: 1docker pull mysql:5.7]]></content>
+      <categories>
+        <category>数据库基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>数据库</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello hexo]]></title>

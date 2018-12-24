@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-21T09:39:33.741Z</updated>
+  <updated>2018-12-24T02:46:00.682Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/12/21/README/"/>
-    <id>http://yoursite.com/2018/12/21/README/</id>
-    <published>2018-12-21T09:19:16.367Z</published>
-    <updated>2018-12-21T09:39:33.741Z</updated>
+    <title>数据库</title>
+    <link href="http://yoursite.com/2018/12/24/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>http://yoursite.com/2018/12/24/数据库/</id>
+    <published>2018-12-24T01:48:36.000Z</published>
+    <updated>2018-12-24T02:46:00.682Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;python-1808&quot;&gt;&lt;a href=&quot;#python-1808&quot; class=&quot;headerlink&quot; title=&quot;python 1808&quot;&gt;&lt;/a&gt;python 1808&lt;/h1&gt;&lt;h4 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h4&gt;&lt;p&gt;{&lt;strong&gt;以下是码云平台说明，您可以替换此简介&lt;/strong&gt;&lt;br&gt;码云是开源中国推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台&lt;/p&gt;
-&lt;p&gt;
+      
+      
+        
+        
+          &lt;p&gt;数据库 - 实现项目中的数据持久化&lt;/p&gt;
+&lt;p&gt;数据库的类别:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;关系型数据库  - MySQL&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;特点:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;理论基础: 集合论的关系代数&lt;/li&gt;
+&lt;li&gt;用二维表来组织数据(行 
+        
+      
     
     </summary>
     
+      <category term="数据库基础" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
