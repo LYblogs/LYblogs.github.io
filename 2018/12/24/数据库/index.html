@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="数据库 - 实现项目中的数据持久化 数据库的类别:  关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB DB2">
+<meta name="description" content="数据库 - 实现项目中的数据持久化 #数据库的类别:  ##关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB">
 <meta name="keywords" content="基础,数据库">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据库">
 <meta property="og:url" content="http://yoursite.com/2018/12/24/数据库/index.html">
 <meta property="og:site_name" content="LYblogs">
-<meta property="og:description" content="数据库 - 实现项目中的数据持久化 数据库的类别:  关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB DB2">
+<meta property="og:description" content="数据库 - 实现项目中的数据持久化 #数据库的类别:  ##关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-24T02:52:22.001Z">
+<meta property="og:updated_time" content="2018-12-24T06:16:44.747Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库">
-<meta name="twitter:description" content="数据库 - 实现项目中的数据持久化 数据库的类别:  关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB DB2">
+<meta name="twitter:description" content="数据库 - 实现项目中的数据持久化 #数据库的类别:  ##关系型数据库  - MySQL  特点:  理论基础: 集合论的关系代数 用二维表来组织数据(行  (记录)  和列(字段)  ) SQL  - 结构化查询语言( Structured query language )   关系型数据库产品:  Oracle  -  （甲骨文公司） MySQL -  （甲骨文公司） -  MariaDB">
 
 
 
@@ -387,9 +387,9 @@
 
       
         <p>数据库 - 实现项目中的数据持久化</p>
-<p>数据库的类别:</p>
+<p>#数据库的类别:</p>
 <ul>
-<li><p>关系型数据库  - MySQL</p>
+<li><p>##关系型数据库  - MySQL</p>
 <ul>
 <li><p>特点:</p>
 <ol>
@@ -407,7 +407,7 @@
 </li>
 </ul>
 </li>
-<li><p>NoSQL数据库  - Redis</p>
+<li><p>##NoSQL数据库  - Redis</p>
 <ol>
 <li>MongoDB  - 文档数据库  -  适合量大但是价值低的数据</li>
 <li>Redis  -  KV数据库  -  性能好适合做项目中的高速缓存服务</li>
@@ -417,16 +417,33 @@
 <li><p>Linux安装软件<br>1.包管理工具  -  yum / rpm</p>
 </li>
 </ul>
-<p>Docker  -  提供虚拟化服务，创建虚拟化容器并按照软件<br>    安装指令:yum -y install docker-io<br>    卸载指令:yum -y install docker-io<br>    查看指令:yum info …<br>    搜索指令:yum search<br>    查看是否安装:yum list installed | grep docker</p>
-<p>Docker服务<br>    启动:systemctl start docker<br>    暂停：systemctl stop docker<br>    重启:systemctl restart docker<br>    查看服务器状态:systemctl status docker<br>    开机自启:systemctl enable docker<br>    禁用开机自启:systemctl disable docker</p>
+<p>Docker  -  提供虚拟化服务，创建虚拟化容器并按照软件</p>
+<blockquote>
+<p>安装指令:yum -y install docker-io<br>卸载指令:yum -y install docker-io<br>查看指令:yum info …<br>搜索指令:yum search<br>查看是否安装:yum list installed | grep docker</p>
+</blockquote>
+<p>Docker服务</p>
+<blockquote>
+<p>启动:systemctl start docker<br>暂停：systemctl stop docker<br>重启:systemctl restart docker<br>查看服务器状态:systemctl status docker<br>开机自启:systemctl enable docker<br>禁用开机自启:systemctl disable docker</p>
+</blockquote>
 <p>使用Docker命令</p>
 <ol>
 <li><p>查看已经下载好的镜像文件(安装包):</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker  imgaes</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>下载MySQL的镜像文件:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull mysql:5.7</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull mysql:5.7</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
+<p>MySQL数据库超级管理员账号 - root<br>Oracle数据库超级管理员账号 - sys<br>SQLServer数据库超级管理员账号 - sa</p>
+<ol start="3">
+<li><p>创建并运行容器</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p 3306:3306 --name mysql57 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看运行中的程序</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>安装MySQL客户端工具:<br>Navicat  - 海豚<br>SQLyog  -  海豚<br>Toad  for  MySQL   -  蛤蟆</p>
 
       
     </div>
