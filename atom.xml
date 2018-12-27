@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-27T05:35:24.371Z</updated>
+  <updated>2018-12-27T05:40:43.058Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Window下配置MySQL</title>
+    <title>Windows下配置MySQL</title>
     <link href="http://yoursite.com/2018/12/27/Windows%E4%B8%8B%E9%85%8D%E7%BD%AEMySQL/"/>
     <id>http://yoursite.com/2018/12/27/Windows下配置MySQL/</id>
     <published>2018-12-27T05:16:55.000Z</published>
-    <updated>2018-12-27T05:35:24.371Z</updated>
+    <updated>2018-12-27T05:40:43.058Z</updated>
     
     <summary type="html">
     
