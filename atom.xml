@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-27T05:40:43.058Z</updated>
+  <updated>2018-12-27T11:09:00.258Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>参考资料及一些好用的网站</title>
+    <link href="http://yoursite.com/2018/12/27/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E7%BD%91%E7%AB%99/"/>
+    <id>http://yoursite.com/2018/12/27/参考资料网站/</id>
+    <published>2018-12-27T10:56:36.000Z</published>
+    <updated>2018-12-27T11:09:00.258Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;####redis数据库命令学习  :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://redisdoc.com/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="参考资料" scheme="http://yoursite.com/categories/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/"/>
+    
+    
+      <category term="参考资料" scheme="http://yoursite.com/tags/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/"/>
+    
+      <category term="好用的网站" scheme="http://yoursite.com/tags/%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows下配置MySQL</title>
@@ -59,6 +89,34 @@
     
     
       <category term="SQL" scheme="http://yoursite.com/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis</title>
+    <link href="http://yoursite.com/2018/12/24/redis%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>http://yoursite.com/2018/12/24/redis数据库/</id>
+    <published>2018-12-24T12:29:36.000Z</published>
+    <updated>2018-12-27T10:56:00.830Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;redis数据库命令&quot;&gt;&lt;a href=&quot;#redis数据库命令&quot; class=&quot;headerlink&quot; title=&quot;redis数据库命令&quot;&gt;&lt;/a&gt;redis数据库命令&lt;/h2&gt;&lt;p&gt;jobs  –&amp;gt;  查看后台运行任务&lt;br&gt;bg %1 –&amp;gt; 
+        
+      
+    
+    </summary>
+    
+      <category term="redis数据库基础" scheme="http://yoursite.com/categories/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="redis" scheme="http://yoursite.com/tags/redis/"/>
     
   </entry>
   

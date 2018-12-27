@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[参考资料及一些好用的网站]]></title>
+    <url>%2F2018%2F12%2F27%2F%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E7%BD%91%E7%AB%99%2F</url>
+    <content type="text"><![CDATA[####redis数据库命令学习 : http://redisdoc.com/ ####模拟分析Python执行过程: http://pythontutor.com/visualize.html#mode=edit python题库:领扣: https://leetcode-cn.com/problemset/all/ 前端框架: http://www.bootcss.com/ 虚拟接口网站: http://rap2.taobao.org/ 虚拟接口用法: http://mockjs.com/ 玩转Linux操作系统: https://github.com/jackfrued/Python-100-Days/blob/master/Day31-35/%E7%8E%A9%E8%BD%ACLinux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md 数据库问题查找解决方法: https://stackoverflow.com/]]></content>
+      <categories>
+        <category>参考资料</category>
+      </categories>
+      <tags>
+        <tag>参考资料</tag>
+        <tag>好用的网站</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Windows下配置MySQL]]></title>
     <url>%2F2018%2F12%2F27%2FWindows%E4%B8%8B%E9%85%8D%E7%BD%AEMySQL%2F</url>
     <content type="text"><![CDATA[Windows下配置本地MySQL 第一步 第二步 第三步 第四步 第五步 第六步 第七步 第八步 第九步 第十步]]></content>
@@ -20,6 +32,18 @@
       </categories>
       <tags>
         <tag>SQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[redis]]></title>
+    <url>%2F2018%2F12%2F24%2Fredis%E6%95%B0%E6%8D%AE%E5%BA%93%2F</url>
+    <content type="text"><![CDATA[redis数据库命令jobs –&gt; 查看后台运行任务bg %1 –&gt; 运行后台第一个任务fg %1 –&gt; 让后台第一个任务放到前台来redis-server &amp; –&gt; 直接将任务放在后台运行ctrl+Z –&gt; 将任务放在后台 netstat -nap | grep 6379 –&gt; 查看6379端口被什么任务占用 man netstat – 查看命令帮助 KV存储系统 - REmote Dictionary Server Github – 20000行代码 -&gt; 50000+行Github、Twitter、YouTube提供高速缓存服务 - 缓存热点数据（访问量大数据量不大）缓解了数据库的压力 （高频访问数据不用直接访问数据库） redis-server –requirepass 123456 –appendonly yes&gt; redis.log 2&gt; redis-error.log&amp; Redis 提供了两种持久化数据方案: RDB - 默认开启 AOF - 默认关闭 – appendonly yes redis服务器指令 auth - 验证身份ping - 心跳事件set - 设置键值对get - 取值del - 删除expire - 设置超时事件exists - 判断键是否存在ex 时间（秒）- 存活时间ttl （key）- 查看存活时间expire （key） 时间 - 设置存活时间keys * - 查看所有键flushdb - 清空数据库中所有的键值对flushall - 清除所有数据库中的所有键值对select - 切换底层数据库save /bgsave - 保存数据/后台保存数据shutdown - 关闭服务器]]></content>
+      <categories>
+        <category>redis数据库基础</category>
+      </categories>
+      <tags>
+        <tag>基础</tag>
+        <tag>redis</tag>
       </tags>
   </entry>
   <entry>
