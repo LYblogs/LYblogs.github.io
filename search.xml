@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Window下配置MySQL]]></title>
+    <url>%2F2018%2F12%2F27%2FWindow%E4%B8%8B%E9%85%8D%E7%BD%AEMySQL%2F</url>
+    <content type="text"><![CDATA[[图片上传中…((MYTHM9)HBEYO2WBK%_{D59.jpg-560237-1545888306255-0)] Windows下配置本地MySQL第一步 第二步 第三步 第四步 第五步 第六步 第七步 第八步 第九步 第十步]]></content>
+      <categories>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[SQL]]></title>
     <url>%2F2018%2F12%2F24%2FSQL%E5%9F%BA%E7%A1%80%2F</url>
     <content type="text"><![CDATA[SQL (结构化查询语言) 分为三组: 1.DDL (数据定义语言): creat(创建)drop(删除)alter（修改） 2.DML (数据操作语言): INSERT(增加数据)DELETE(删除数据)UPDATE(修改数据)SELECT(查找/提出数据) 3.DCL (数据控制语言): GRANTREVOKECOMMITROLLBACK 创建名为srs的数据库1CREATE DATABASE srs DEFAULT charset utf8; -- 默认为Latin1 - iso-8859-1 切换到srs数据库1use srs; 创建二维表来承载数据 如果存在名为tb_student的表就删除它1drop table if EXISTS tb_student 创建学生表tb_student 在学生表中学号可以唯一的标记一条学生记录，我们通常称这样的列为主键列（PRIMARY key）123456789CREATE TABLE tb_student (stuid INT not null COMMENT &quot;学号&quot;,-- 非空约束stuname VARCHAR(10) NOT NULL COMMENT &quot;姓名&quot;, -- 限定最长字符stusex bit DEFAULT 1 COMMENT &quot;性别&quot;, -- bit(比特类型)只能是0|1 (默认为1)stubirth date COMMENT &quot;出生日期&quot;,stuaddr VARCHAR(255) COMMENT &quot;家庭住址&quot;,PRIMARY KEY (stuid)); 修改学生表添加联系方式列1alter TABLE tb_student ADD COLUMN stutel CHAR(11); -- 定长字符串 修改学生表删除联系方式列1ALTER TABLE tb_student DROP COLUMN stutel; 向学生表插入数据123456INSERT INTO tb_student VALUES (1001, &apos;李毅&apos;, 1, &apos;1997-04-28&apos;,&apos;四川成都&apos;);INSERT INTO tb_student VALUES (1002, &apos;王大锤&apos;, 1, &apos;1995-4-8&apos;,&apos;重庆&apos;);INSERT INTO tb_student VALUES (1003, &apos;王小锤&apos;, 1, &apos;1995-4-8&apos;,&apos;重庆&apos;);INSERT INTO tb_student VALUES (1004, &apos;锤锤&apos;, 1, &apos;1997-5-8&apos;,&apos;广州&apos;),(1005, &apos;王老锤&apos;, 1, &apos;1977-4-8&apos;,&apos;北京&apos;),(1006, &apos;白客&apos;, 0, &apos;1988-4-8&apos;,&apos;重庆&apos;); 删除学号在1003到1005之间的学生数据1234DELETE from tb_student WHERE stuid&gt;=1003 and stuid&lt;=1005;DELETE from tb_student WHERE stuid IN (1003,1004,1005);DELETE from tb_student WHERE stuid BETWEEN 1003 and 1005;-- TRUNCATE TABLE tb_student; 截断表（慎用，删库跑路咯！） 更新学号为1002和1004的两个学生的生日123update tb_student set stubirth=&apos;1990-1-1&apos; WHERE stuid=1002 OR stuid=1004;UPDATE tb_student SET stuaddr=NULL WHERE stuid=1004 OR stuid=1005; 更新学号为1002的学生的名字、性别、家庭住址123UPDATE tb_student SET stuname=&apos;王小美&apos;,stusex=0,stuaddr=&apos;四川自贡&apos; WHERE stuid=1002;UPDATE tb_student SET stuaddr=&apos;湖南长沙&apos; WHERE stuaddr is null; 筛选12SELECT * FROM tb_studentSELECT * FROM tb_student WHERE stusex=0; 投影12SELECT stuname,stubirth FROM tb_student;SELECT stuname,stubirth FROM tb_student WHERE stusex=0; 补充: crash course (快速上手)best practice (最佳实践)]]></content>
