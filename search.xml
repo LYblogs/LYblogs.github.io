@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[参考资料及一些好用的网站]]></title>
     <url>%2F2018%2F12%2F27%2F%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E7%BD%91%E7%AB%99%2F</url>
-    <content type="text"><![CDATA[redis数据库命令学习 : http://redisdoc.com/ 模拟分析Python执行过程: http://pythontutor.com/visualize.html#mode=edit python题库:领扣: https://leetcode-cn.com/problemset/all/ 前端框架: http://www.bootcss.com/ 虚拟接口网站: http://rap2.taobao.org/ 虚拟接口用法: http://mockjs.com/ 玩转Linux操作系统: https://github.com/jackfrued/Python-100-Days/blob/master/Day31-35/%E7%8E%A9%E8%BD%ACLinux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md 数据库问题查找解决方法: https://stackoverflow.com/]]></content>
+    <content type="text"><![CDATA[redis数据库命令学习 : http://redisdoc.com/ 模拟分析Python执行过程: http://pythontutor.com/visualize.html#mode=edit python题库:领扣: https://leetcode-cn.com/problemset/all/ 前端框架: http://www.bootcss.com/ 虚拟接口网站: http://rap2.taobao.org/ 虚拟接口用法: http://mockjs.com/ 玩转Linux操作系统: https://github.com/jackfrued/Python-100-Days/blob/master/Day31-35/%E7%8E%A9%E8%BD%ACLinux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md 数据库问题查找解决方法: https://stackoverflow.com/ 常见Linux指令 (https://www.cnblogs.com/clsn/p/7490611.html)]]></content>
       <categories>
         <category>参考资料</category>
       </categories>
@@ -42,8 +42,8 @@
         <category>redis数据库基础</category>
       </categories>
       <tags>
-        <tag>基础</tag>
         <tag>redis</tag>
+        <tag>基础</tag>
       </tags>
   </entry>
   <entry>
@@ -56,18 +56,6 @@
       <tags>
         <tag>基础</tag>
         <tag>数据库</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello hexo]]></title>
-    <url>%2F2018%2F12%2F18%2F%E4%BD%A0%E5%A5%BD%EF%BC%8Chexo%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start你好吗？百度]]></content>
-      <categories>
-        <category>初识hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>基础</tag>
       </tags>
   </entry>
 </search>
