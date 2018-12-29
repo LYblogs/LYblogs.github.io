@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="LYblogs">
 <meta property="og:description" content="redis数据库命令jobs  –&amp;gt;  查看后台运行任务bg %1 –&amp;gt;    运行后台第一个任务fg %1  –&amp;gt; 让后台第一个任务放到前台来redis-server &amp;amp;  –&amp;gt;  直接将任务放在后台运行ctrl+Z –&amp;gt; 将任务放在后台 netstat -nap | grep 6379 –&amp;gt; 查看6379端口被什么任务占用 man netstat –">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-27T10:56:00.830Z">
+<meta property="og:updated_time" content="2018-12-28T12:52:42.111Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="redis">
 <meta name="twitter:description" content="redis数据库命令jobs  –&amp;gt;  查看后台运行任务bg %1 –&amp;gt;    运行后台第一个任务fg %1  –&amp;gt; 让后台第一个任务放到前台来redis-server &amp;amp;  –&amp;gt;  直接将任务放在后台运行ctrl+Z –&amp;gt; 将任务放在后台 netstat -nap | grep 6379 –&amp;gt; 查看6379端口被什么任务占用 man netstat –">
@@ -382,7 +382,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  328
+                  497
                 </span>
               
 
@@ -398,7 +398,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -424,7 +424,12 @@
 <p>man netstat – 查看命令帮助</p>
 <p>KV存储系统 - REmote  Dictionary   Server</p>
 <p>Github  – 20000行代码 -&gt; 50000+行<br>Github、Twitter、YouTube<br>提供高速缓存服务 - 缓存热点数据（访问量大数据量不大）<br>缓解了数据库的压力 （高频访问数据不用直接访问数据库）</p>
-<p>redis-server –requirepass 123456 –appendonly yes&gt; redis.log 2&gt; redis-error.log&amp;</p>
+<p>创建redis服务器</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-server --requirepass 123456 --appendonly yes&gt; redis.log 2&gt; redis-error.log&amp;</span><br></pre></td></tr></table></figure>
+<p>连接本机服务器:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-cli</span><br></pre></td></tr></table></figure>
+<p>连接其他redis服务器:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-cli -h 120.77.222.217  #120.77.222.21（其他服务器的公网ip）</span><br></pre></td></tr></table></figure>
 <p>Redis 提供了两种持久化数据方案:</p>
 <ol>
 <li>RDB - 默认开启</li>
@@ -433,6 +438,20 @@
 <h2 id="redis服务器指令"><a href="#redis服务器指令" class="headerlink" title="redis服务器指令"></a>redis服务器指令</h2><blockquote>
 <p>auth - 验证身份<br>ping - 心跳事件<br>set -  设置键值对<br>get  -  取值<br>del -  删除<br>expire  -  设置超时事件<br>exists  -  判断键是否存在<br>ex 时间（秒）- 存活时间<br>ttl （key）-  查看存活时间<br>expire  （key） 时间 - 设置存活时间<br>keys * - 查看所有键<br>flushdb  -  清空数据库中所有的键值对<br>flushall   -  清除所有数据库中的所有键值对<br>select - 切换底层数据库<br>save /bgsave - 保存数据/后台保存数据<br>shutdown  - 关闭服务器</p>
 </blockquote>
+<p>经典数据存储结构:<br>栈(stack)  -  filo  -  先进后出,后进先出</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lpush +lpop / rpus +rpop</span><br></pre></td></tr></table></figure>
+<p>例如（递归函数）:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">(num)</span>:</span></span><br><span class="line">	<span class="keyword">if</span> num <span class="keyword">in</span>(<span class="number">0</span>,<span class="number">1</span>)</span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">	<span class="keyword">return</span> num * f(num<span class="number">-1</span>)</span><br></pre></td></tr></table></figure></p>
+<p>队列(queue)   -  FIFO  -  先进先出，后进后出</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lpush + rpop / rpush + lpop</span><br></pre></td></tr></table></figure>
+<p>主从复制,读写分离:</p>
+<p>主人:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-server --requirepass 123123 &gt; redis.log 2&gt; redis-error.log &amp;</span><br></pre></td></tr></table></figure>
+<p>奴隶:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-server --slaveof 主人ip 6379（端口号） --masterauth 123456 &gt;redis.log 2&gt;redis-error.log&amp;</span><br></pre></td></tr></table></figure>
+<p>退出奴隶:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">slaveof no one</span><br></pre></td></tr></table></figure>
+<p>查看服务器配置（跑分）:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">redis-benchmark -a 123123</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -475,8 +494,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/12/24/SQL基础/" rel="prev" title="SQL">
-                SQL <i class="fa fa-chevron-right"></i>
+              <a href="/2018/12/24/SQL基础/" rel="prev" title="SQL基础">
+                SQL基础 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -562,7 +581,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -573,7 +592,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -584,7 +603,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -681,7 +700,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">1.5k</span>
+    <span title="Site words total count">2.6k</span>
   
 </div>
 

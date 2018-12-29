@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-27T12:45:24.260Z</updated>
+  <updated>2018-12-29T03:52:31.732Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>参考资料及一些好用的网站</title>
-    <link href="http://yoursite.com/2018/12/27/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E7%BD%91%E7%AB%99/"/>
-    <id>http://yoursite.com/2018/12/27/参考资料网站/</id>
-    <published>2018-12-27T10:56:36.000Z</published>
-    <updated>2018-12-27T12:45:24.260Z</updated>
+    <title>Django基础</title>
+    <link href="http://yoursite.com/2018/12/29/Django%E6%A1%86%E6%9E%B6/"/>
+    <id>http://yoursite.com/2018/12/29/Django框架/</id>
+    <published>2018-12-29T02:08:56.000Z</published>
+    <updated>2018-12-29T03:52:31.732Z</updated>
     
     <summary type="html">
     
@@ -29,10 +29,58 @@
       
         
         
-          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h4 id=&quot;redis数据库命令学习&quot;&gt;&lt;a href=&quot;#redis数据库命令学习&quot; class=&quot;headerlink&quot; title=&quot;redis数据库命令学习  :&quot;&gt;&lt;/a&gt;redis数据库命令学习 
+          &lt;p&gt;更新pip:&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td
         
       
+    
+    </summary>
+    
+      <category term="Django" scheme="http://yoursite.com/categories/Django/"/>
+    
+    
+      <category term="Django运行" scheme="http://yoursite.com/tags/Django%E8%BF%90%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis进阶</title>
+    <link href="http://yoursite.com/2018/12/28/redis%E6%8F%90%E9%AB%98/"/>
+    <id>http://yoursite.com/2018/12/28/redis提高/</id>
+    <published>2018-12-28T06:36:24.000Z</published>
+    <updated>2018-12-29T03:51:54.455Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;国内比较好的短信验证平台:&lt;br&gt;又拍云/luosimao/云片短信/SendCloud/互亿无线&lt;/p&gt;
+&lt;p&gt;python搜索变量的顺序:LEGB&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;序列化 :&lt;/strong&gt;把对象转换成字符或字节序列 -
+        
+      
+    
+    </summary>
+    
+      <category term="redis进阶" scheme="http://yoursite.com/categories/redis%E8%BF%9B%E9%98%B6/"/>
+    
+    
+      <category term="redis" scheme="http://yoursite.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>参考资料及一些好用的网站</title>
+    <link href="http://yoursite.com/2018/12/27/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E7%BD%91%E7%AB%99/"/>
+    <id>http://yoursite.com/2018/12/27/参考资料网站/</id>
+    <published>2018-12-27T10:56:36.000Z</published>
+    <updated>2018-12-29T03:52:24.797Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;redis数据库命令学习&quot;&gt;&lt;a href=&quot;#redis数据库命令学习&quot; class=&quot;headerlink&quot; title=&quot;redis数据库命令学习  :&quot;&gt;&lt;/a&gt;redis数据库命令学习  :&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://redisdoc.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://redisdoc.com/&lt;/a&gt;
     
     </summary>
     
@@ -66,11 +114,11 @@
   </entry>
   
   <entry>
-    <title>SQL</title>
+    <title>SQL基础</title>
     <link href="http://yoursite.com/2018/12/24/SQL%E5%9F%BA%E7%A1%80/"/>
     <id>http://yoursite.com/2018/12/24/SQL基础/</id>
     <published>2018-12-24T12:29:36.000Z</published>
-    <updated>2018-12-24T13:01:23.431Z</updated>
+    <updated>2018-12-29T02:59:16.644Z</updated>
     
     <summary type="html">
     
@@ -84,7 +132,7 @@
     
     </summary>
     
-      <category term="SQL基础" scheme="http://yoursite.com/categories/SQL%E5%9F%BA%E7%A1%80/"/>
+      <category term="SQL" scheme="http://yoursite.com/categories/SQL/"/>
     
     
       <category term="SQL" scheme="http://yoursite.com/tags/SQL/"/>
@@ -96,7 +144,7 @@
     <link href="http://yoursite.com/2018/12/24/redis%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     <id>http://yoursite.com/2018/12/24/redis数据库/</id>
     <published>2018-12-24T12:29:36.000Z</published>
-    <updated>2018-12-27T10:56:00.830Z</updated>
+    <updated>2018-12-28T12:52:42.111Z</updated>
     
     <summary type="html">
     
@@ -143,9 +191,9 @@
       <category term="数据库基础" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
-    
       <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
