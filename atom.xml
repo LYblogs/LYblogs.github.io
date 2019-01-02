@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T03:55:04.532Z</updated>
+  <updated>2019-01-02T10:37:29.936Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,25 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>二阶段复习</title>
-    <link href="http://yoursite.com/2018/12/29/%E4%BA%8C%E9%98%B6%E6%AE%B5%E5%A4%8D%E4%B9%A0/"/>
-    <id>http://yoursite.com/2018/12/29/二阶段复习/</id>
-    <published>2018-12-29T03:55:04.000Z</published>
-    <updated>2018-12-29T03:55:04.532Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Django基础</title>
+    <title>Django</title>
     <link href="http://yoursite.com/2018/12/29/Django%E6%A1%86%E6%9E%B6/"/>
     <id>http://yoursite.com/2018/12/29/Django框架/</id>
     <published>2018-12-29T02:08:56.000Z</published>
-    <updated>2018-12-29T03:52:31.732Z</updated>
+    <updated>2019-01-02T10:37:29.936Z</updated>
     
     <summary type="html">
     
@@ -43,16 +29,20 @@
       
         
         
-          &lt;p&gt;更新pip:&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td
+          &lt;h2 id=&quot;配置虚拟环境&quot;&gt;&lt;a href=&quot;#配置虚拟环境&quot; class=&quot;headerlink&quot; title=&quot;配置虚拟环境&quot;&gt;&lt;/a&gt;配置虚拟环境&lt;/h2&gt;&lt;h4 id=&quot;更新pip&quot;&gt;&lt;a href=&quot;#更新pip&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
-      <category term="Django" scheme="http://yoursite.com/categories/Django/"/>
+      <category term="Django基础与进阶" scheme="http://yoursite.com/categories/Django%E5%9F%BA%E7%A1%80%E4%B8%8E%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="Django运行" scheme="http://yoursite.com/tags/Django%E8%BF%90%E8%A1%8C/"/>
+      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="进阶" scheme="http://yoursite.com/tags/%E8%BF%9B%E9%98%B6/"/>
     
   </entry>
   
@@ -175,9 +165,9 @@
       <category term="redis数据库基础" scheme="http://yoursite.com/categories/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="redis" scheme="http://yoursite.com/tags/redis/"/>
-    
       <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="redis" scheme="http://yoursite.com/tags/redis/"/>
     
   </entry>
   
@@ -205,9 +195,9 @@
       <category term="数据库基础" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
       <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
