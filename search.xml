@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[二阶段复习]]></title>
+    <url>%2F2018%2F12%2F29%2F%E4%BA%8C%E9%98%B6%E6%AE%B5%E5%A4%8D%E4%B9%A0%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[Django基础]]></title>
     <url>%2F2018%2F12%2F29%2FDjango%E6%A1%86%E6%9E%B6%2F</url>
     <content type="text"><![CDATA[更新pip:1python -m pip install -U pip 准备工作(下载): 1pip insatll django pymysql django-redis djangorestframework pillow 检查三方库是否有冲突(兼容性): 1pip check 查看安装了哪些库和库的版本: 1pip freeze 指定下载库版本(默认下载最新版本) 1pip install django==1.11 生成环境和库版本: 1pip freeze &gt; requirements.txt ↑ 输出结果为: 模拟一样的虚拟环境和依赖库: 1pip install -r requirements.txt 1.创建Django项目: 123django-admin startproject hellodjango .# .表示当前路径下# hellodjango 表示django项目名（建议和python项目名一致） 2.运行Django: 1python manage.py runserver 3.将django网页改为中文 打开Django项目下的settings.py文件夹,改为如下字段 12LANGUAGE_CODE = &apos;zh-hans&apos; #en-usTIME_ZONE = &apos;Asia/Chongqing&apos;#UTC 4.连接MySQL数据库 打开Django项目下的settings.py文件夹,修改如下字段 1234567891011DATABASES = &#123; &apos;default&apos;: &#123; &apos;ENGINE&apos;: &apos;django.db.backends.mysql&apos;, &apos;NAME&apos;: &apos;hrs&apos;, &apos;HOST&apos;: &apos;localhost&apos;,#阿里云:&apos;47.106.233.124&apos; &apos;PORT&apos;: 3306, &apos;USER&apos;: &apos;root&apos;, &apos;PASSWORD&apos;: &apos;123456&apos;, &apos;TIME_ZONE&apos;: &apos;Asia/Chongqing&apos;, &#125;&#125; 打开init.py添加如下字段 123import pymysqlpymysql.install_as_MySQLdb() 5.在python的Terminal终端输入如下字段: 1python manage.py migrate 然后你的MySQL数据库会生成如下10张表: 6.在python的Terminal终端输入字段，用来创建超级管理员:12python manage.py createsuperuserpython manage.py runserver #启动Django服务器 总结: 1.通过pycharm创建python项目 —&gt; hellodjango 2.在Terminal的虚拟环境中按照依赖项 3.创建Django项目 —&gt; django-admin startproject hellodjango . 4.运行项目 –&gt; python manage.py runserver 5.修改配置文件settings.py 6.修改 init .py文件 7.生成Django自带数据库 8.创建后台超级管理账号]]></content>

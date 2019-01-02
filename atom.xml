@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T03:52:31.732Z</updated>
+  <updated>2018-12-29T03:55:04.532Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二阶段复习</title>
+    <link href="http://yoursite.com/2018/12/29/%E4%BA%8C%E9%98%B6%E6%AE%B5%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://yoursite.com/2018/12/29/二阶段复习/</id>
+    <published>2018-12-29T03:55:04.000Z</published>
+    <updated>2018-12-29T03:55:04.532Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Django基础</title>
@@ -118,7 +132,7 @@
     <link href="http://yoursite.com/2018/12/24/SQL%E5%9F%BA%E7%A1%80/"/>
     <id>http://yoursite.com/2018/12/24/SQL基础/</id>
     <published>2018-12-24T12:29:36.000Z</published>
-    <updated>2018-12-29T02:59:16.644Z</updated>
+    <updated>2018-12-29T06:04:48.540Z</updated>
     
     <summary type="html">
     
