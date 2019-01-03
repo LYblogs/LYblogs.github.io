@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-02T10:37:29.936Z</updated>
+  <updated>2019-01-03T04:23:42.349Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Django</title>
+    <title>Django模型</title>
+    <link href="http://yoursite.com/2019/01/03/django%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2019/01/03/django模型/</id>
+    <published>2019-01-03T01:45:36.000Z</published>
+    <updated>2019-01-03T04:23:42.349Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;ORM（objects relationship mapping）对象关系映射&lt;/p&gt;
+&lt;h3 id=&quot;1-数据库插入数据&quot;&gt;&lt;a href=&quot;#1-数据库插入数据&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="django" scheme="http://yoursite.com/tags/django/"/>
+    
+      <category term="模型" scheme="http://yoursite.com/tags/%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Django框架</title>
     <link href="http://yoursite.com/2018/12/29/Django%E6%A1%86%E6%9E%B6/"/>
     <id>http://yoursite.com/2018/12/29/Django框架/</id>
     <published>2018-12-29T02:08:56.000Z</published>
-    <updated>2019-01-02T10:37:29.936Z</updated>
+    <updated>2019-01-03T04:21:05.170Z</updated>
     
     <summary type="html">
     
