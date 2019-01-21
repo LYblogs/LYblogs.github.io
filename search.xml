@@ -91,4 +91,15 @@
         <tag>数据库</tag>
       </tags>
   </entry>
+  <entry>
+    <title><![CDATA[git操作本地仓库与远程仓库以及ssh配置]]></title>
+    <url>%2F2018%2F12%2F20%2FplayGit%2F</url>
+    <content type="text"><![CDATA[1.创建本地仓库,进入本地仓库对应的空的文件夹a.进入需要做版本控制的文件夹中(空)b.git init在文件夹下添加一个.git的目录(创建仓库) c.在该文件夹下新建一个.py文件(或者其它文件)d.git add 文件(仓库中的文件)将文件添加到缓存区中(添加一个到缓存区中) e.git add -A将当前目录中的所有文件添加到缓存区中 f.git commit -m ‘本次更新的关键信息’g.git status查看工作区是否有修改内容 h.git commit -a -m ‘清空’全部清空的时候,提交版本 i.git reset –hard 3ac18738295a63b37 (返回版本号是3ac18738295a63b37的版本)j.git reset –hard HEAD^ (返回到当前版本的上一个版本)k.git checkout – 文件名从缓存区中恢复工作目录中的内容(让工作区中的指定文件,回到上次提交的位置) 2.将本地仓库连接远程仓库git remote add origin https://gitee.com/gateslee/gitTest.git将本地仓库与远程仓库连接,要现在远程仓库建一个空仓库 git pull -`-`rebase origin master将本地仓库的数据与远程仓库数据同步 git push origin master将本地仓库推送到远程仓库 3.先在远程仓库创建一个仓库,再克隆这个仓库,并获取到本地git clone url(Http的)获得一个本地仓库 然后按照上面的步骤在将工作区间的内容-&gt;缓存区-&gt;本地仓库.git push推送到网上仓库,第一次会需要账号(username),密码 ,如果没有上传上,尝试一下 `git push -f git pull从仓库里获取更新了的文件,如果没有更新,就不会获取(只会获取更新了的文件) 示意图 4.分之操作:1.git branch – 查看分之2.git branch develop – 新建develop分之3.git checkout master – 切换到master分之4.git checkout -b 分之名 –切换并新建分之5.git diff master develop – 查看两个分之的区别6.git merge develop – 将当前分之与develop分之合并注意:切换分之,push,pull,这些操作前要保证工作区间是clean,在git status总查询git向服务器发送文件scp test.py root@120.79.47.68://tmp/fasong2.py(根目录/tmp下)ssh密钥认证1.在主机和从机上执行：ssh-keygen2.在从机上执行: scp id_rsa.pub root@主机地址:~/.ssh/master.pub(上面这条指令是将从机上的 id_rsa.pub文件拷贝传递给到主机的.ssh文件夹下，并且命名为’master.pub’) 3.在主机中的.ssh文件夹中创建authorized_keys文件： touch authorized_keys4.修改文件authorized_keys的权限: chmod 600 authorized_keys5.将master.pub放进authorized_keys文件中: cat master.pub &gt;&gt; authorized_keys6.在操作主机的时候，需要主机能够自己免密访问自己就将自己的公钥放在自己的authorized_keys文件中]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>offenUse</tag>
+      </tags>
+  </entry>
 </search>
